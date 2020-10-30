@@ -15,6 +15,13 @@ _description here._
 **python -m SimpleHTTPServer**
 * _Then open your web browser of choice to localhost:8800_
 
+## Test Specs
+
+1. 
+Describe: createArray
+Test: "Creates an array of integers ranging from 0 to the user's inputed number"
+Expect(createArray("5")).toEqual([0, 1, 2, 3, 4, 5]);
+
 ## Known Bugs
 
 _bugs here_
