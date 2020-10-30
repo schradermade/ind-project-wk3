@@ -30,14 +30,7 @@ $(document).ready(function()  {
         return element;
       }
     });
-    
-    alert("user Array")
-    console.log(userArray);
-    alert("user String")
-    console.log(userString);
-    alert("final string")
-    console.log(finalString);
-
+    finalString;
   });
 });
 
@@ -139,4 +132,13 @@ $(document).ready(function()  {
   });
 });
 
+*/
+
+/*
+alert("user Array")
+console.log(userArray);
+alert("user String")
+console.log(userString);
+alert("final string")
+console.log(finalString);
 */
