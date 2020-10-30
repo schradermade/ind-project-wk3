@@ -18,23 +18,23 @@ $(document).ready(function()  {
         return element;
       }
       else if (element.includes("3")) {
-        return " \"Won't you be my neighbor?\" ";
+        return " \"Won't you be my neighbor?\"";
       }
       else if (element.includes("2")) {
-        return " \"Boop!\" ";
+        return " \"Boop!\"";
       }
       else if (element.includes("1")) {
-        return " \"Beep!\" ";
+        return " \"Beep!\"";
       }
       else  {
-        return element;
+        return " " + element;
       }
+    return finalString;
     });
-  
-    document.write(finalString);
-
+    document.getElementById("showString").innerHTML = finalString;
   });
 });
+
 
 
 
